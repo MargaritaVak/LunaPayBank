@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash_screen">
+
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="310dp"
+        android:layout_height="171dp"
+        android:layout_below="@+id/infoCard"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/background" />
+
+    <TextView
+        android:id="@+id/cvc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/background"
+        android:layout_alignBottom="@+id/background"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="42dp"
+        android:alpha="0.7"
+        android:fontFamily="@font/dm_sans_medium"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/cvc"
+        android:textAppearance="@style/your_balanc"
+        android:translationY="-0.19sp" />
+
+    <EditText
+        android:id="@+id/name_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/background"
+        android:layout_alignStart="@+id/background"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="23dp"
+        android:editable="false"
+        android:fontFamily="@font/dm_sans_medium"
+        android:gravity="top"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#1C1B1B"
+        android:textSize="16sp"
+        android:translationY="-1.19sp"
+        tools:ignore="Deprecated,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/infoCard"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="31dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/info_card"
+        android:textAppearance="@style/profile"
+        android:translationY="-7.52sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/date_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/background"
+        android:layout_alignEnd="@+id/background"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="20dp"
+        android:editable="false"
+        android:fontFamily="@font/be_vietnam_bold"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:textAppearance="@style/date_card"
+        android:translationY="-0.08sp"
+        tools:ignore="Deprecated,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/your_balanc"
+        android:layout_width="77.46dp"
+        android:layout_height="16dp"
+        android:layout_alignStart="@+id/background"
+        android:layout_alignBottom="@+id/background"
+        android:layout_marginStart="14.5dp"
+        android:layout_marginBottom="55dp"
+        android:alpha="0.7"
+        android:fontFamily="@font/dm_sans_medium"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/your_balanc"
+        android:textAppearance="@style/your_balanc"
+        android:translationY="-0.19sp" />
+
+    <Button
+        android:id="@+id/button_back4"
+        android:layout_width="63dp"
+        android:layout_height="34.42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/button_back"
+        android:onClick="runBack"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/num_card"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/background"
+        android:layout_alignTop="@+id/background"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="14dp"
+        android:editable="false"
+        android:fontFamily="@font/dm_sans_bold"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:textAppearance="@style/num_card"
+        android:translationY="-0.08sp"
+        tools:ignore="Deprecated,TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editSum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/background"
+        android:layout_alignBottom="@+id/background"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="10dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:fontFamily="@font/dm_sans_bold"
+        android:gravity="top"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="0sp"
+        android:textAppearance="@style/num_card"
+        android:translationY="-0.08sp"
+        tools:ignore="Deprecated,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/cvctext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/background"
+        android:layout_alignBottom="@+id/background"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp"
+        android:editable="false"
+        android:textAppearance="@style/num_card"
+        tools:ignore="Deprecated" />
+
+
+</RelativeLayout>

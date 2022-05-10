@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable-highdr/mask_group.xml" value="0.2385" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable-normal/component.xml" value="0.362" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3365" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/background.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/bar.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/button_back.xml" value="0.225" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/button_start.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/button_start2.xml" value="0.2385" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/component.xml" value="0.221" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/component_2.xml" value="0.3285" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/conponent_2.xml" value="0.1085" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/currency_cover.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/ellipse_2.xml" value="0.1915" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/ellipse_3.xml" value="0.3085" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/group_41.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/ic_launcher_background.xml" value="0.225" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/image_6.xml" value="0.2385" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/image_6_1.xml" value="0.2385" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/line_1.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/mask_group__2_.xml" value="0.295" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/onboarding_1.xml" value="0.362" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/rectangle_1.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/rectangle_2.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/rectangle_3.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/rub_cover.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/screen_pincode.xml" value="0.295" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/sign_up_emp.xml" value="0.335" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/splash_screen.xml" value="0.3365" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/union.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/usd_cover.xml" value="0.2385" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/user_2.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/wallet.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/drawable/your_card.xml" value="0.377" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/font/roboto_bold.xml" value="0.3293859649122807" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout-v31/onboarding_activity_1.xml" value="0.2578125" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/activity_main.xml" value="0.19199999414062519" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/activity_start.xml" value="0.19199999414062519" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/card_main.xml" value="0.19199999414062519" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/login_empty.xml" value="0.25343999226562525" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/model_pcode.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/onboarding_activity_1.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/pin_code.xml" value="0.25343999226562525" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/profile_main.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/profile_upd.xml" value="0.25343999226562525" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/set_pin_code.xml" value="0.25343999226562525" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/sign_up_empty_state.xml" value="0.30910645575032064" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/start_activity.xml" value="0.25343999226562525" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/transfer.xml" value="0.25343999226562525" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/layout/transfer_2.xml" value="0.25343999226562525" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3365" />
+        <entry key="..\:/Users/USER/Desktop/Bank/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3365" />
+        <entry key="..\:/Users/USER/Desktop/MyBank/caches/transforms-3/c7eed4ec6985b704b5fa09fd47458942/transformed/lollipin-2.0.0/res/layout/view_keyboard_button.xml" value="0.13894826849080805" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

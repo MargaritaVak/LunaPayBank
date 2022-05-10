@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maim"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash_screen">
+
+
+    <TextView
+        android:id="@+id/your_allbalanc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editAmount"
+        android:layout_alignTop="@+id/card"
+        android:layout_alignEnd="@+id/card"
+        android:layout_marginStart="14.5dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="17dp"
+        android:alpha="0.7"
+        android:fontFamily="@font/dm_sans_medium"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/your_allbalanc"
+        android:textAppearance="@style/your_allbalanc"
+        android:translationY="-0.19sp" />
+
+    <View
+        android:id="@+id/card"
+        android:layout_width="304dp"
+        android:layout_height="93dp"
+        android:layout_below="@+id/yourCard"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/rectangle_2" />
+
+    <ImageView
+        android:id="@+id/visaimageView"
+        android:layout_width="42dp"
+        android:layout_height="33dp"
+        android:layout_alignEnd="@+id/card"
+        android:layout_alignBottom="@+id/card"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="23dp"
+        android:contentDescription="@string/visa"
+        app:srcCompat="@drawable/group_7"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/visa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/card"
+        android:layout_alignEnd="@+id/card"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="259dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/visa"
+        android:textAppearance="@style/visa" />
+
+    <View
+        android:id="@+id/wrapper"
+        android:layout_width="328dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rectangle_3" />
+
+    <ImageButton
+        android:id="@+id/homeButton"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/wrapper"
+        android:layout_alignTop="@+id/wrapper"
+        android:layout_alignBottom="@+id/wrapper"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/material_motion_easing_linear"
+        app:srcCompat="@drawable/union"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/cardButton"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/wrapper"
+        android:layout_alignBottom="@+id/wrapper"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toEndOf="@+id/homeButton"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/yourCard"
+        app:srcCompat="@drawable/wallet"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/transferButton"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/wrapper"
+        android:layout_alignBottom="@+id/wrapper"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toEndOf="@+id/cardButton"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/visa"
+        app:srcCompat="@drawable/group_41"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/wrapper"
+        android:layout_alignEnd="@+id/wrapper"
+        android:layout_alignBottom="@+id/wrapper"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toEndOf="@+id/transferButton"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/profile"
+        app:srcCompat="@drawable/user_2"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+    <View
+        android:id="@+id/action_bar"
+        android:layout_width="360dp"
+        android:layout_height="4dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/bar" />
+
+    <TextView
+        android:id="@+id/lunapay_main"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/action_bar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center_horizontal|top"
+        android:text="@string/lunapay"
+        android:textAppearance="@style/lunapay_main" />
+
+    <ImageView
+        android:id="@+id/logotypeHome"
+        android:layout_width="33dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/action_bar"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="13dp"
+        android:layout_toEndOf="@+id/lunapay_main"
+        android:contentDescription="@string/lunapay"
+        app:srcCompat="@drawable/component"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/yourCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/action_bar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="top"
+        android:text="@string/yourCard"
+        android:textAppearance="@style/yourCard" />
+
+
+    <EditText
+        android:id="@+id/editAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/card"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toStartOf="@+id/editRub"
+        android:editable="false"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="#5163BF"
+        android:textSize="19sp"
+        tools:ignore="Deprecated" />
+
+    <EditText
+        android:id="@+id/editRub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/card"
+        android:layout_alignBottom="@+id/card"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:editable="false"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/ruble"
+        android:textColor="#5163BF"
+        android:textSize="17sp"
+        tools:ignore="Deprecated" />
+
+</RelativeLayout>

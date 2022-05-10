@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Bank</string>
+    <string name="lunapay">LunaPay</string>
+    <string name="secured_by_">Secured by LunaPay.</string>
+    <string name="welcome">Welcome to</string>
+    <string name="start">Get Started</string>
+    <string name="some_id">Sign Up</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="password_repeat">Confirm Password</string>
+    <string name="sign_up_start">Sign Up</string>
+    <string name="register">Already have an account?</string>
+    <string name="register2">Login</string>
+    <string name="login">Log in</string>
+    <string name="registerLog">Don’t have an account?</string>
+    <string name="registerSign">Sign Up</string>
+    <string name="log_in_start">Log In</string>
+    <string name="emailExam" translatable="false">Mainideas@gmail.com</string>
+    <string name="profile">Profile</string>
+    <string name="profile2">Please set up your profile</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="patronymic">Middle Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="numberPhone">Number Phone</string>
+    <string name="set">Set</string>
+    <string name="set_pin_code">Set Pin Code</string>
+    <string name="please_set_">Please set your own Pin Code</string>
+    <string name="set_pin">Set Pin Code (4-digit)</string>
+    <string name="please_ente">Please enter your Pin Code</string>
+    <string name="start_new">Go</string>
+    <string name="visa">VISA</string>
+    <string name="dollar">$</string>
+    <string name="ruble">₽</string>
+    <string name="yourCard">Your Wallet</string>
+    <string name="exchangeRates">Exchange Rates</string>
+    <string name="usd">USD</string>
+    <string name="rub">RUB</string>
+    <string name="euro">EURO</string>
+    <string name="addCard">Add Card</string>
+    <string name="personal_in">Personal Information</string>
+    <string name="yyyy_mm_dd" translatable="false">yyyy-mm-dd</string>
+    <string name="info_card" >Information about cards</string>
+    <string name="your_balanc">Your Balance</string>
+    <string name="cvc">CVC</string>
+    <string name="transfer_money">Money Transfer</string>
+    <string name="recipient_card">Recipient\'s card</string>
+    <string name="Sender_card">Sender\'s card</string>
+    <string name="sum_transfer">Transfer amount</string>
+    <string name="recipient_card_name">Recipient\'s name</string>
+    <string name="recipient_card_lastname">Recipient\'s last name</string>
+    <string name="recipient_patronymic">Recipient\'s patronymic</string>
+    <string name="send">Send</string>
+    <string name="your_allbalanc">Current Balance</string>
+    <string name="transfer_money2">The money transfer has been confirmed</string>
+</resources>

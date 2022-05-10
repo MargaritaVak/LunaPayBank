@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen">
+
+    <Button
+        android:id="@+id/button_start6"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginBottom="89dp"
+        android:background="@drawable/button_start2"
+        android:fontFamily="@font/roboto_bold"
+        android:onClick="onClick"
+        android:text="@string/set"
+        android:textAppearance="@style/sign_up_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/transfer_cover2"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_below="@+id/transfer_cover"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/currency_cover" />
+
+    <View
+        android:id="@+id/transfer_cover3"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_below="@+id/transfer_cover2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/currency_cover" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal2"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/transfer_cover2"
+        android:layout_alignBottom="@+id/transfer_cover2"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#0B0A0A"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal3"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/transfer_cover3"
+        android:layout_alignBottom="@+id/transfer_cover3"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#0B0A0A"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/cardTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/transfer_cover2"
+        android:layout_alignTop="@+id/transfer_cover2"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/dm_sans_medium"
+        android:text="@string/recipient_card"
+        android:textColor="#131313"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/sumTransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/transfer_cover3"
+        android:layout_alignTop="@+id/transfer_cover3"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/dm_sans_medium"
+        android:text="@string/sum_transfer"
+        android:textColor="#2C2929"
+        android:textSize="10sp" />
+
+    <View
+        android:id="@+id/transfer_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_below="@+id/moneyTransfer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/currency_cover" />
+
+    <Button
+        android:id="@+id/button_back5"
+        android:layout_width="63dp"
+        android:layout_height="34.42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/button_back"
+        android:onClick="runBack"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/moneyTransfer"
+        android:layout_width="175dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="37dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/transfer_money"
+        android:textAppearance="@style/profile"
+        android:translationY="-7.52sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cardFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/transfer_cover"
+        android:layout_alignTop="@+id/transfer_cover"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/dm_sans_medium"
+        android:text="@string/Sender_card"
+        android:textColor="#222121"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardFrom"
+        android:layout_alignStart="@+id/transfer_cover"
+        android:layout_alignBottom="@+id/transfer_cover"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#0B0A0A"
+        android:textSize="14sp" />
+
+</RelativeLayout>

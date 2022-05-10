@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen">
+
+    <View
+        android:id="@+id/account_num2"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/account_num"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/currency_cover" />
+
+    <View
+        android:id="@+id/account_num3"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/account_num2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/currency_cover" />
+
+    <View
+        android:id="@+id/account_num4"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/account_num3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/currency_cover" />
+
+    <View
+        android:id="@+id/account_num5"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/account_num4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/currency_cover" />
+
+    <View
+        android:id="@+id/account_num6"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/account_num5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/currency_cover" />
+
+    <TextView
+        android:id="@+id/profile3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="top"
+        android:lineSpacingExtra="15sp"
+        android:text="@string/profile"
+        android:textAppearance="@style/profile"
+        android:translationY="-7.52sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_back3"
+        android:layout_width="63dp"
+        android:layout_height="34.42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/button_back"
+        android:onClick="runBack"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/personal_in"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:alpha="0.8"
+        android:fontFamily="@font/roboto_bold"
+        android:fontFeatureSettings="pnum, lnum"
+        android:gravity="top"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/personal_in"
+        android:textAppearance="@style/personal_in"
+        android:translationY="-1.04sp" />
+
+    <View
+        android:id="@+id/account_num"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/personal_in"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/currency_cover" />
+
+    <TextView
+        android:id="@+id/firstNameMain"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/account_num"
+        android:layout_alignTop="@+id/account_num"
+        android:layout_alignBottom="@+id/account_num"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="top"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/firstName"
+        android:textAllCaps="false"
+        android:textAppearance="@style/account_num"
+        android:translationY="-3.47sp" />
+
+    <TextView
+        android:id="@+id/LastNameMain"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/account_num2"
+        android:layout_alignTop="@+id/account_num2"
+        android:layout_alignBottom="@+id/account_num2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="top"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/lastName"
+        android:textAllCaps="false"
+        android:textAppearance="@style/account_num"
+        android:translationY="-3.47sp" />
+
+    <TextView
+        android:id="@+id/patronymicMain"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_alignStart="@+id/account_num3"
+        android:layout_alignTop="@+id/account_num3"
+        android:layout_alignBottom="@+id/account_num3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="top"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/patronymic"
+        android:textAllCaps="false"
+        android:textAppearance="@style/account_num"
+        android:translationY="-3.47sp" />
+
+    <TextView
+        android:id="@+id/birthdayMain"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignStart="@+id/account_num4"
+        android:layout_alignTop="@+id/account_num4"
+        android:layout_alignBottom="@+id/account_num4"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="top"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/birthday"
+        android:textAllCaps="false"
+        android:textAppearance="@style/account_num"
+        android:translationY="-3.47sp" />
+
+    <TextView
+        android:id="@+id/numberPhoneMain"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_alignStart="@+id/account_num5"
+        android:layout_alignTop="@+id/account_num5"
+        android:layout_alignBottom="@+id/account_num5"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="9dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="top"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/numberPhone"
+        android:textAllCaps="false"
+        android:textAppearance="@style/account_num"
+        android:translationY="-3.47sp" />
+
+    <TextView
+        android:id="@+id/emailMain"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignStart="@+id/account_num6"
+        android:layout_alignTop="@+id/account_num6"
+        android:layout_alignBottom="@+id/account_num6"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="top"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/email"
+        android:textAllCaps="false"
+        android:textAppearance="@style/account_num"
+        android:translationY="-3.47sp" />
+
+    <EditText
+        android:id="@+id/editfirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/account_num"
+        android:layout_alignBottom="@+id/account_num"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints=""
+        android:editable="false"
+        android:fontFamily="@font/roboto"
+        android:gravity="top"
+        android:textAppearance="@style/account_num_add"
+        android:textColor="#001A4D"
+        tools:ignore="Deprecated,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editlastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/account_num2"
+        android:layout_alignBottom="@+id/account_num2"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints=""
+        android:editable="false"
+        android:fontFamily="@font/roboto"
+        android:gravity="top"
+        android:textAppearance="@style/account_num_add"
+        android:textColor="#001A4D"
+        tools:ignore="Deprecated,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editpatronymicM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/account_num3"
+        android:layout_alignBottom="@+id/account_num3"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:editable="false"
+        android:fontFamily="@font/roboto"
+        android:gravity="top"
+        android:textAppearance="@style/account_num_add"
+        android:textColor="#001A4D"
+        tools:ignore="Deprecated,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/birthdayM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/account_num4"
+        android:layout_alignBottom="@+id/account_num4"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:editable="false"
+        android:fontFamily="@font/roboto"
+        android:gravity="top"
+        android:textAppearance="@style/account_num_add"
+        android:textColor="#001A4D"
+        tools:ignore="Deprecated,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/numberPhoneM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/account_num5"
+        android:layout_alignBottom="@+id/account_num5"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:editable="false"
+        android:fontFamily="@font/roboto"
+        android:gravity="top"
+        android:textAppearance="@style/account_num_add"
+        android:textColor="#001A4D"
+        tools:ignore="Deprecated,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/emailM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/account_num6"
+        android:layout_alignBottom="@+id/account_num6"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:editable="false"
+        android:fontFamily="@font/roboto"
+        android:gravity="top"
+        android:textAppearance="@style/account_num_add"
+        android:textColor="#001A4D"
+        tools:ignore="Deprecated,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+</RelativeLayout>

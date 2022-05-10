@@ -1,0 +1,395 @@
+<resources>
+    <!-- styles.xml -->
+    <style name="lunapay">
+
+        <item name="android:textSize">
+            48sp
+        </item>
+
+        <item name="android:textColor">
+            #5063BF
+        </item>
+
+    </style>
+
+    <style name="lunapay2">
+
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:textColor">
+            #5063BF
+        </item>
+
+    </style>
+
+    <style name="lunapay_main">
+
+        <item name="android:textSize">
+            25sp
+        </item>
+
+        <item name="android:textColor">
+            #5063BF
+        </item>
+
+    </style>
+
+    <style name="secured_by_">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #878787
+        </item>
+
+    </style>
+    <!-- styles.xml -->
+    <style name="welcome">
+
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:textColor">
+            #1E1E1E
+        </item>
+
+    </style>
+
+    <!-- styles.xml -->
+    <style name="some_id">
+
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="some_id1">
+
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:textColor">
+            #1E1E1E
+        </item>
+
+    </style>
+
+    <style name="sign_up">
+
+        <item name="android:textSize">
+            13sp
+        </item>
+        <item name="android:textColor">
+            #878787
+        </item>
+
+    </style>
+
+    <style name ="sign_up_start">
+        <item name="android:textSize">
+            17.2sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="register">
+
+    <item name="android:textSize">
+        14sp
+    </item>
+
+    <item name="android:textColor">
+        #878787
+    </item>
+
+</style>
+
+    <style name="register2">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #5063BF
+        </item>
+
+    </style>
+
+    <style name ="profile">
+        <item name="android:textSize">
+            23sp
+        </item>
+
+        <item name="android:textColor">
+            #1E1E1E
+        </item>
+    </style>
+
+    <style name ="profile2">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #C4C4C4
+        </item>
+
+    </style>
+
+    <style name="profile3">
+        <item name="android:textSize">
+            13sp
+        </item>
+
+        <item name="android:textColor">
+            #878787
+        </item>
+    </style>
+
+
+    <style name="set_pin_code">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #1E1E1E
+        </item>
+    </style>
+
+    <style name="please_set_">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #C4C4C4
+        </item>
+
+    </style>
+
+    <style name="set_pin">
+
+        <item name="android:textSize">
+            13sp
+        </item>
+
+        <item name="android:textColor">
+            #878787
+        </item>
+
+    </style>
+
+    <style name="login">
+
+        <item name="android:textSize">
+            27sp
+        </item>
+
+        <item name="android:textColor">
+            #1E1E1E
+        </item>
+
+    </style>
+
+    <style name="please_ente">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #C4C4C4
+        </item>
+
+    </style>
+
+    <style name="visa">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #1E1E1E
+        </item>
+
+    </style>
+
+    <style name="yourCard">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #878787
+        </item>
+
+    </style>
+
+    <style name="wallet">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="wallet_num">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="personal_in">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #5164BF
+        </item>
+
+    </style>
+
+    <style name="account_num">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #5164BF
+        </item>
+
+    </style>
+
+    <style name="account_num_add">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #001A4D
+        </item>
+
+    </style>
+
+    <style name="nameCard">
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="num_card">
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="date_card">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="your_balanc">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="your_allbalanc">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">#B3AEAE</item>
+
+    </style>
+
+
+</resources>

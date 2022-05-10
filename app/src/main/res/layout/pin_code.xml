@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash_screen">
+
+    <Button
+        android:id="@+id/button_start5"
+        android:layout_width="195dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/button_start"
+        android:fontFamily="@font/roboto_medium"
+        android:onClick="onClick"
+        android:text="@string/start_new"
+        android:textAppearance="@style/some_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_back2"
+        android:layout_width="63dp"
+        android:layout_height="34.42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/button_back"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <com.example.bank.modelPinCode
+        android:id="@+id/fpc_2"
+        android:layout_width="347dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/please_ente"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="46dp"
+        android:layout_toEndOf="@+id/button_back2"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="top"
+        android:lineSpacingExtra="19sp"
+        android:text="@string/login"
+        android:textAppearance="@style/login"
+        android:translationY="-9.28sp" />
+
+    <TextView
+        android:id="@+id/please_ente"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="34dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/please_ente"
+        android:textAppearance="@style/please_ente"
+        android:translationY="-3.62sp" />
+</RelativeLayout>

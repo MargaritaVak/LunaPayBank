@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drawable/splash_screen.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="360dp"
+    android:height="771dp"
+    android:viewportWidth="360"
+    android:viewportHeight="771"
+    tools:ignore="VectorRaster">
+
+    <group>
+
+        <clip-path
+            android:pathData="M0 0H375V812H0V0Z"
+            />
+
+        <path
+            android:pathData="M0 0V812H375V0"
+            android:fillColor="#FFFFFF"
+            />
+    </group>
+</vector>
